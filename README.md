@@ -1,73 +1,85 @@
-# React + TypeScript + Vite
+# College Schedule Builder
+## Project Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+College Schedule Builder is a web application built with React, Typescript, ans CSS. It helps students create and manage their weekly class schedule by adding courses, selecting days, choosing class time, and removing courses when needed. 
+ ## Features
+ - Add new courses
+ - Select class day(s)
+ - Choose start and end times
+ - View courses dynamically
+ - Delete courses from the schedule
+ - AM/PM times display
+ - Time validation to prevent invalid schedule
+ - Responsive and modern user interface
 
-Currently, two official plugins are available:
+ ---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ ## Technology Used
+ - react
+ - TypeScripts
+ - CSS
+ - Git
+ - GitHub
+ - Vite
 
-## React Compiler
+ ---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ ## Challenges Faced 
 
-## Expanding the ESLint configuration
+ During development I Faced several issues:
+ - React modules errors
+ - Typescripts type errors
+ - Form validation issues
+ - Git and Github configuration problems
+ - Terminal and package installation issues
+ 
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+ These problems were resolved through debugginh, testing, and research.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+ ---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+ ## What I learned 
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+ Through this project I learned:
+ - React state management using useState
+ - TypeScripts interfaces and types
+ - Form handling in React
+ - CSS styling and layout design
+ - Git and Github workflow
+ - Debugging React applications
+ 
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+ ---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+ ## AI Assistance Disclosure 
+ This project was designed, developed, tested, and completed by me.
+ I used ChatGPT as a learning and support tool to better understand React, TypeScript, CSS styling, debugging techniques, and Git/GitHub workflows. AI assistance was mainly used for explanations, troubleshooting errors, UI improvement suggestions, and guidance during development.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+All project decisions, code integration, testing, modifications, and final implementation were completed by me.
+
+Files where AI-assisted suggestions were used:
+
+- src/App.tsx
+- src/App.css
+- src/index.css
+- README.md
+
+---
+
+## By
+
+Nusrat Jerin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
