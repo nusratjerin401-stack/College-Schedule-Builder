@@ -16,7 +16,6 @@
     outline-offset: 2px;
   }
 }
-
 .hero {
   position: relative;
 
@@ -264,6 +263,44 @@
 
 .delete-btn:hover {
   opacity: 0.9;
+}
+
+#center h1 {
+  font-size: 3rem;
+  color: #c4b5fd;
+  text-shadow: 0 0 20px rgba(196, 181, 253, 0.4);
+}
+
+#docs,
+#social {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.add-btn {
+  background: linear-gradient(
+    135deg,
+    #bcadd6 0%,
+    #876df2 100%
+  );
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.days-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.days-container label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
 }
 
 
